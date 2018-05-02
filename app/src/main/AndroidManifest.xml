@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aksetapps.dataanalyzer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CentralTendency"
+            android:label="@string/title_activity_central_tendency"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MeasuresofDispersion"
+            android:label="@string/title_activity_measuresof_dispersion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TheoriticalDistribution"
+            android:label="@string/title_activity_theoritical_distribution"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CorrelationAnalysis"
+            android:label="@string/title_activity_correlation_analysis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mean"
+            android:label="@string/title_activity_mean"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mode"
+            android:label="@string/title_activity_mode"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GeometricMean"
+            android:label="@string/title_activity_geometric_mean"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HarmonicMean"
+            android:label="@string/title_activity_harmonic_mean"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Range"
+            android:label="@string/title_activity_range"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuartileDeviation"
+            android:label="@string/title_activity_quartile_deviation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MeanDeviation"
+            android:label="@string/title_activity_mean_deviation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Bernoulli"
+            android:label="@string/title_activity_bernoulli"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Binomial"
+            android:label="@string/title_activity_binomial"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Poisson"
+            android:label="@string/title_activity_poisson"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Geometric"
+            android:label="@string/title_activity_geometric"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HyperGeometric"
+            android:label="@string/title_activity_hyper_geometric"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Continuos"
+            android:label="@string/title_activity_continuos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Exponential"
+            android:label="@string/title_activity_exponential"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Normal"
+            android:label="@string/title_activity_normal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Cauchy"
+            android:label="@string/title_activity_cauchy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KPCC"
+            android:label="@string/title_activity_kpcc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SpearmanRankCorrelation"
+            android:label="@string/title_activity_spearman_rank_correlation"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Partial"
+            android:label="@string/title_activity_partial"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Muiltiple"
+            android:label="@string/title_activity_muiltiple"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Median"
+            android:label="@string/title_activity_median"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

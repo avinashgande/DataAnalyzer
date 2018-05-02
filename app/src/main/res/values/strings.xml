@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">DataAnalyzer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_central_tendency">CentralTendency</string>
+    <string name="title_activity_measuresof_dispersion">MeasuresofDispersion</string>
+    <string name="title_activity_theoritical_distribution">TheoriticalDistribution</string>
+    <string name="title_activity_correlation_analysis">CorrelationAnalysis</string>
+    <string name="title_activity_mean">Mean</string>
+    <string name="title_activity_median">Median</string>
+    <string name="title_activity_mode">Mode</string>
+    <string name="title_activity_geometric_mean">GeometricMean</string>
+    <string name="title_activity_harmonic_mean">HarmonicMean</string>
+    <string name="title_activity_range">Range</string>
+    <string name="title_activity_quartile_deviation">QuartileDeviation</string>
+    <string name="title_activity_mean_deviation">MeanDeviation</string>
+    <string name="title_activity_bernoulli">Bernoulli</string>
+    <string name="title_activity_binomial">Binomial</string>
+    <string name="title_activity_poisson">Poisson</string>
+    <string name="_0_p_q_1" />
+    <string name="title_activity_geometric">Geometric</string>
+    <string name="title_activity_hyper_geometric">HyperGeometric</string>
+    <string name="title_activity_continuos">Continuos</string>
+    <string name="where_a_b_a_b" />
+    <string name="title_activity_exponential">Exponential</string>
+    <string name="title_activity_normal">Normal</string>
+    <string name="title_activity_cauchy">Cauchy</string>
+    <string name="title_activity_kpcc">KPCC</string>
+    <string name="title_activity_spearman_rank_correlation">SpearmanRankCorrelation</string>
+    <string name="title_activity_partial">Partial</string>
+    <string name="title_activity_muiltiple">Muiltiple</string>
+</resources>
